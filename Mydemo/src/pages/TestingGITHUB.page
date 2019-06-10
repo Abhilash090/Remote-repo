@@ -1,0 +1,8 @@
+<apex:page standardController="account" >
+    
+      
+    <apex:outputText label="name" value="{!account.name}"/>
+    
+    
+    
+</apex:page>

@@ -6,7 +6,6 @@
             <apex:column value="{! c.FirstName }"/>
             <apex:column value="{! c.LastName }"/>
             <apex:column value="{! c.Email }"/>
-            <apex:column value="{! c.phone }"/>
             <apex:column value="{! c.Account.Name }"/>
         </apex:pageBlockTable>
         
