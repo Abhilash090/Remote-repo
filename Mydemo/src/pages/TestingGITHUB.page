@@ -10,6 +10,10 @@
                 <apex:column value="{!v.Phone}"/>
                 <apex:column value="{!v.website}"/>
                 
+                <apex:column value="{!v.AnnualRevenue}"/>
+                <apex:column value="{!v.Billingcity}"/>
+                <apex:column value="{!v.BillingCountry}"/>
+                
             </apex:pageBlockTable>
          </apex:pageBlock>
         <apex:inlineEditSupport />
